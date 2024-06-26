@@ -1,9 +1,11 @@
-package	piscine
+package piscine
 
 import "ft"
 
 func PrintStr(s string) {
-	for i := 0; i < len(s); i++ {
+	i := 0
+	for range s {
 		ft.PrintRune(rune(s[i]))
+		i++
 	}
 }

@@ -1,3 +1,3 @@
-module ex02
+module ex06
 
-go 1.18
+go 1.22.4
